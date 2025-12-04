@@ -24,10 +24,23 @@ const asyncAwait =
 
 const thenCatch =
   ({ createPromise }: ExerciseContext) =>
-  async () => {};
+  () => {
+    // Group 1 and 2 starts immediately and then both run in parallel
+    const group1 = createPromise("A")
+      .then(() => createPromise("B"))
+      .then(() => createPromise("C"));
+
+    const group2 = createPromise("D")
+      .then(() => createPromise("E"))
+      .then(() => createPromise("F"));
+
+    // Promise.all creates a promise that represents both
+    // Then you must return it! otherwise the fn will return undefined
+    return Promise.all([group1, group2]);
+  };
 
 export default {
   makeMixedExercise: skipExercise(mixed),
   makeAsyncAwaitExercise: asyncAwait,
-  makeThenCatchExercise: skipExercise(thenCatch),
+  makeThenCatchExercise: thenCatch,
 };
