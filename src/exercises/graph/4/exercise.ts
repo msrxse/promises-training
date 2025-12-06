@@ -18,9 +18,8 @@ const mixed =
 const asyncAwait =
   ({ createPromise }: ExerciseContext) =>
   async () => {
-    await createPromise("A");
-
     try {
+      await createPromise("A");
       // The outer trycatch does not protect 'D' because it is not awaited
       // catch is needed otherwise it would be cause an unhandled rejection
       createPromise("D").catch(() => {});

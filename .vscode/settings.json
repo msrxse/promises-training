@@ -1,89 +1,94 @@
 {
-    "cSpell.enabled": true,
-    "cSpell.userWords": ["todos"],
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.detectIndentation": true,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 14,
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": true,
-    "editor.formatOnSave": true,
-    "editor.inlineSuggest.enabled": true,
-    "editor.lineHeight": 0,
-    "editor.linkedEditing": true,
-    "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "editor.suggestSelection": "first",
-    "editor.tabSize": 2,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.quickSuggestions": {
-        "strings": "on"
-    },
-    "files.associations": {
-        "*.css": "tailwindcss"
-    },
-    "emmet.showAbbreviationSuggestions": false,
-    "eslint.enable": true,
-    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-    "explorer.openEditors.visible": 1,
-    "extensions.ignoreRecommendations": true,
-    "files.autoSave": "onWindowChange",
-    "git.autofetch": true,
-    "git.openRepositoryInParentFolders": "never",
-    "screencastMode.keyboardOptions": {
-        "showCommandGroups": false,
-        "showCommands": false,
-        "showKeybindings": true,
-        "showKeys": false,
-        "showSingleEditorCursorMoves": true
-    },
-    "search.exclude": {
-        "**/*.code-search": true,
-        "**/bower_components": true,
-        "**/node_modules": true,
-        "**/dist": true,
-        "**/.next": true
-    },
-    "search.useIgnoreFiles": false,
-    // Terminal
-    "terminal.integrated.showExitAlert": false,
-    "terminal.integrated.fontSize": 14,
-    "vsicons.dontShowNewVersionMessage": true,
-    "workbench.colorTheme": "Noctis Obscuro",
-    "workbench.editor.labelFormat": "medium",
-    "terminal.integrated.tabs.enabled": false,
-    // "workbench.editor.showTabs": "none",
-    "workbench.iconTheme": "vscode-icons",
-    // "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.visible": false,
-    // -------------------
+  "cSpell.enabled": true,
+  "cSpell.userWords": ["todos"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 0,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "emmet.showAbbreviationSuggestions": false,
+  "eslint.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "explorer.openEditors.visible": 1,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "onWindowChange",
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  "screencastMode.keyboardOptions": {
+    "showCommandGroups": false,
+    "showCommands": false,
+    "showKeybindings": true,
+    "showKeys": false,
+    "showSingleEditorCursorMoves": true
+  },
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.next": true
+  },
+  "search.useIgnoreFiles": false,
+  // Terminal
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.fontSize": 14,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "Noctis Obscuro",
+  "workbench.editor.labelFormat": "medium",
+  "terminal.integrated.tabs.enabled": false,
+  // "workbench.editor.showTabs": "none",
+  "workbench.iconTheme": "vscode-icons",
+  // "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": false,
+  // -------------------
 
-    // update on import files
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit",
-        "source.fixAll.tslint": "explicit",
-        "source.fixAll.stylelint": "explicit",
-        "source.organizeImports": "never"
-    },
-    // Standard settings
-    "javascript.validate.enable": false,
-    "html.format.indentHandlebars": true,
-    "html.format.indentInnerHtml": true,
-    "html.format.templating": true,
+  // update on import files
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.organizeImports": "never"
+  },
+  // Standard settings
+  "javascript.validate.enable": false,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.templating": true,
 
-    "eslint.format.enable": true,
+  "eslint.format.enable": true,
 
-    // Terminal
-    "terminal.integrated.shell.linux": "zsh",
+  // Terminal
+  "terminal.integrated.shell.linux": "zsh",
 
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }
